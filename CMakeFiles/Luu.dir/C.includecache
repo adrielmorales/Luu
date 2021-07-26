@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adrielmorales/Documents/Luu/src/function.c
+stdio.h
+-
+string.h
+-
+function.h
+/home/adrielmorales/Documents/Luu/src/function.h
+
+/home/adrielmorales/Documents/Luu/src/function.h
+

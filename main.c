@@ -7,9 +7,14 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "function.h"
+#include "src/function.h"
 
   int main(){
-    printf("Hello World!\n");
+    char startScreen[2000] = {'L', 'u', 'u', NULL};
+    printf("%s", startScreen);
+    for(int i=0; i<1997; i++){
+      startScreen[i] = '.';
+      printf("%c", startScreen[i]);
+    }
     return 0;
   }

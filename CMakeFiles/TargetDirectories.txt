@@ -1,0 +1,3 @@
+/home/adrielmorales/Documents/Luu/CMakeFiles/rebuild_cache.dir
+/home/adrielmorales/Documents/Luu/CMakeFiles/edit_cache.dir
+/home/adrielmorales/Documents/Luu/CMakeFiles/Luu.dir
