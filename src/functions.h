@@ -7,6 +7,8 @@
 #ifndef FUNCTION_H
 #define FUNCTION_H
 
-  int function();
+  char drivePatternUnix(char text[200]);
+  char drivePatternWindows(char text);
+  int windowsFunction();
 
 #endif
