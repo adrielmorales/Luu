@@ -13,6 +13,7 @@ int authenticityChecker(FILE* fp) {
 	while (1) {
 		fputs("0", fp);
 		fseek(fp, 0L, SEEK_END);
+		fputs("0", fp);
 			sizeEND = ftell(fp);
 			if (sizeEND == sizeCUR) {
 				sizeEND = ftell(fp);
